@@ -1,0 +1,2 @@
+CREATE INDEX INDX_APELLIDO_NOMBRE ON ESTUDIANTES (REPLACE(Apellido || ',' || Nombre, ' ', ''))
+/
